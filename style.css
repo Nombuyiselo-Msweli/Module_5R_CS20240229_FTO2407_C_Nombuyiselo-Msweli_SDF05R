@@ -56,6 +56,7 @@ p {
 /* STYLES FOR BUTTON 1 : grow and change colour transition on hover. Change colour on click*/
 .btn-1, .btn-2 , .btn-3{
     font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease-in ; 
 }
 
 .btn-1:hover{
@@ -64,15 +65,24 @@ p {
         font-size: 14px ;
         width:150px;
         height: 50px;
-        transition: 0.5s ease-in ; 
 }
 
+/* left click on button to see active state */
 .btn-1:active{
     background-color: #F4C2C2 ;
     color:#F33A6A ;
 }
 
 /* STYLES FOR BUTTON 2 */
+.btn-2:hover{
+    width: 175px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-style: italic;
+    background-color: #c3d9ff;
+    color: #002eff; 
+    border-color: #002eff;
+}
 
 
 /* STYLES FOR BUTTON 3 */
